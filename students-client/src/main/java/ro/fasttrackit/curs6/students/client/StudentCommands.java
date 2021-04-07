@@ -29,8 +29,7 @@ public class StudentCommands {
 
     @ShellMethod("Add new student")
     void addStudent() {
+
         System.out.println(studentService.addStudent(new Student(0, "Mihai", 22)));
     }
-
-
 }

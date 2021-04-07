@@ -7,9 +7,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="countries" />
         <module name="course6-students-app" />
         <module name="students-client" />
+        <module name="spring-shell-course6-homework" />
+        <module name="products-app-course6-homework" />
         <module name="full-stack-java-spring-course" />
       </profile>
     </annotationProcessing>
@@ -17,6 +18,8 @@
       <module name="countries" target="11" />
       <module name="course6-students-app" target="15" />
       <module name="full-stack-java-spring-course" target="15" />
+      <module name="products-app-course6-homework" target="15" />
+      <module name="spring-shell-course6-homework" target="15" />
       <module name="students-client" target="15" />
     </bytecodeTargetLevel>
   </component>
@@ -25,6 +28,8 @@
       <module name="countries" options="-parameters" />
       <module name="course6-students-app" options="-parameters" />
       <module name="full-stack-java-spring-course" options="-parameters" />
+      <module name="products-app-course6-homework" options="-parameters" />
+      <module name="spring-shell-course6-homework" options="-parameters" />
       <module name="students-client" options="-parameters" />
     </option>
   </component>

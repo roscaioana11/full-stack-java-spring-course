@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/countries/countries.iml" filepath="$PROJECT_DIR$/countries/countries.iml" />
       <module fileurl="file://$PROJECT_DIR$/students-app/course6-students-app.iml" filepath="$PROJECT_DIR$/students-app/course6-students-app.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/full-stack-java-spring-course.iml" filepath="$PROJECT_DIR$/.idea/full-stack-java-spring-course.iml" />
+      <module fileurl="file://$PROJECT_DIR$/products-app-course6-homework/products-app-course6-homework.iml" filepath="$PROJECT_DIR$/products-app-course6-homework/products-app-course6-homework.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-shell-course6-homework/spring-shell-course6-homework.iml" filepath="$PROJECT_DIR$/spring-shell-course6-homework/spring-shell-course6-homework.iml" />
       <module fileurl="file://$PROJECT_DIR$/students-client/students-client.iml" filepath="$PROJECT_DIR$/students-client/students-client.iml" />
     </modules>
   </component>

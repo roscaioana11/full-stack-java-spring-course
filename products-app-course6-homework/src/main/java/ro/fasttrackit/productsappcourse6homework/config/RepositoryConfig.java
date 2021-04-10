@@ -16,21 +16,6 @@ public class RepositoryConfig implements CommandLineRunner {
         this.repository = repository;
     }
 
-//    public RepositoryConfig(ProductsRepository repository) {
-//        atStartup(repository);
-//    }
-
-//    void atStartup(ProductsRepository repository) {
-//
-//            System.out.println("-------------------------------");
-//            repository.saveAll(List.of(
-//                    new Product("Paine", 2.5, "paine alba", Category.BAKERY),
-//                    new Product("Lapte", 7.2, "lapte de vaca", Category.DAIRY_PRODUCTS),
-//                    new Product("Ciocolata", 10.0, "ciocolata neagra", Category.SWEETS),
-//                    new Product("Mar", 0.6, "mere de Romania", Category.FRUITS)
-//            ));
-//    }
-
     @Override
     public void run(String... args) throws Exception {
 			System.out.println("-----------------------------");

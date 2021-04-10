@@ -6,4 +6,7 @@ public enum Category {
     FRUITS,
     VEGETABLES,
     BAKERY
+
 }
+
+

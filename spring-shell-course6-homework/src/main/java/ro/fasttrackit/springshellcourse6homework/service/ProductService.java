@@ -3,6 +3,7 @@ package ro.fasttrackit.springshellcourse6homework.service;
 import org.springframework.core.ParameterizedTypeReference;
 import org.springframework.http.HttpEntity;
 import org.springframework.stereotype.Service;
+import org.springframework.web.client.HttpClientErrorException;
 import org.springframework.web.client.RestTemplate;
 import org.springframework.web.util.UriComponentsBuilder;
 import ro.fasttrackit.springshellcourse6homework.model.Category;
@@ -29,12 +30,15 @@ public class ProductService {
 
     public Product getProductById(long productId) {
         RestTemplate restTemplate = new RestTemplate();
-        return restTemplate.getForObject("http://localhost:8085/products/" + productId, Product.class);
+        try {
+            return restTemplate.getForObject("http://localhost:8085/products/" + productId, Product.class);
+        }catch (HttpClientErrorException e){
+            throw new RuntimeException(e.getMessage());
+        }
     }
 
     public Product addProduct(Product newProduct) {
         RestTemplate restTemplate = new RestTemplate();
-
         return restTemplate.postForObject("http://localhost:8085/products", newProduct, Product.class);
     }
 
